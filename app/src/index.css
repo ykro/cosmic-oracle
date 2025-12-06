@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-cyan: #00f3ff;
+  --color-neon-magenta: #ff00ff;
+  --color-void-black: #050510;
+  --color-gold-accent: #ffd700;
+  
+  --font-cinzel: 'Cinzel', serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--color-void-black);
+  color: white;
+  font-family: var(--font-inter);
+  overflow-x: hidden; /* Prevent horizontal scroll, allow vertical */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-cinzel);
+}
