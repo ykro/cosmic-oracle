@@ -8,7 +8,6 @@ from google.genai import types
 
 # 1. Configuracion del Entorno (.env Auto-setup)
 ENV_PATH = Path(__file__).parent / ".env"
-USER_PROVIDED_KEY = "AIzaSyC6GJ_SyYYLbFpo7PS1uz2P8RqrdNKQ33A"
 
 if not ENV_PATH.exists():
     print(f"Creating .env file at {ENV_PATH}")

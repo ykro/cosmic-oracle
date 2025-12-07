@@ -20,7 +20,7 @@ Se recomienda usar un entorno virtual. Si usas `uv`:
 ```bash
 uv venv
 source .venv/bin/activate
-uv pip install -r scripts/requirements.txt
+uv pip install -r asset-gen/requirements.txt
 ```
 
 O con pip estándar:
@@ -28,7 +28,7 @@ O con pip estándar:
 ```bash
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
-pip install -r scripts/requirements.txt
+pip install -r asset-gen/requirements.txt
 ```
 
 ## Ejecución
@@ -36,8 +36,18 @@ pip install -r scripts/requirements.txt
 Desde la raíz del proyecto:
 
 ```bash
-python scripts/generate_assets.py
+python asset-gen/generate_assets.py
 ```
 
 El script verificará/creará automáticamente el archivo `.env` con la API KEY configurada si no existe.
 Las imágenes generadas se guardarán en `output/cards/`.
+
+## Preview de Assets Generados
+
+### Cartas
+| Reverso | Anverso (Ejemplo) |
+|:---:|:---:|
+| ![Back](../assets/sample_card_back.png) | ![Front](../assets/sample_card_front.png) |
+
+### Referencia de Estilo
+![Reference](../assets/final_reference.jpg)
