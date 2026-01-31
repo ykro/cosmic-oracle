@@ -2,7 +2,7 @@
 set -e
 
 # Configuration
-PROJECT_ID="caramel-banner-478016-t5"
+PROJECT_ID="ai-experiments-480016"
 SERVICE_NAME="cosmic-oracle-frontend"
 REGION="us-central1"
 IMAGE_TAG="gcr.io/$PROJECT_ID/$SERVICE_NAME"

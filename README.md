@@ -2,7 +2,7 @@
 
 This project demonstrates the power of **Google Gemini 3 Pro (Nano Banana)** to transform a rough hand-drawn sketch into a fully functional, deployed web application.
 
-**🔴 Live Demo:** [https://cosmic-oracle-frontend-txrlrpoirq-uc.a.run.app](https://cosmic-oracle-frontend-txrlrpoirq-uc.a.run.app)
+**🔴 Live Demo:** [https://cosmic-oracle-frontend-622959071640.us-central1.run.app](https://cosmic-oracle-frontend-622959071640.us-central1.run.app)
 
 ---
 
